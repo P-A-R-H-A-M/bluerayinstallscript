@@ -2,8 +2,8 @@
 
 sudo su
 
-
 #ppa adding and installing prerequisites
+add-apt-repository ppa:appimagelauncher-team/stable -y
 apt install -y apt-transport-https curl
 add-apt-repository ppa:obsproject/obs-studio -y
 add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y
@@ -26,7 +26,8 @@ wget https://extensions.gnome.org/extension-data/emoji-selectormaestroschan.fr.v
 #installing apps
 apt update
 dpkg --install /tmp/discord.deb
-apt install -y neofetch steam ffmpeg obs-studio v4l2loopback-dkms lutris mpv brave-browser handbrake gnome-tweaks webcamoid openjdk-16-jre-headless spotify-client
+apt install -y appimagelauncher neofetch git ranger steam ffmpeg obs-studio v4l2loopback-dkms lutris mpv brave-browser handbrake gnome-tweaks webcamoid openjdk-16-jre-headless spotify-client
 apt install -y --install-recommends winehq-stable
 
+exit
 
