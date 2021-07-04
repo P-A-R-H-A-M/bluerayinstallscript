@@ -1,13 +1,16 @@
 #!/bin/bash
 
+sudo su
+
+
 #ppa adding and installing prerequisites
 apt install -y apt-transport-https curl
-add-apt-repository ppa:obsproject/obs-studio
-add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
-add-apt-repository universe
-add-apt-repository multiverse
-add-apt-repository restricted
-add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ hirsute main'
+add-apt-repository ppa:obsproject/obs-studio -y
+add-apt-repository ppa:qbittorrent-team/qbittorrent-stable -y
+add-apt-repository universe -y
+add-apt-repository multiverse -y
+add-apt-repository restricted -y
+add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ hirsute main' -y
 dpkg --add-architecture i386
 
 #more repo adding and key adding
