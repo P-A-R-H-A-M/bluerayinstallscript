@@ -23,7 +23,7 @@ wget https://extensions.gnome.org/extension-data/emoji-selectormaestroschan.fr.v
 #installing apps
 apt update
 dpkg --install /tmp/discord.deb
-apt install -y steam ffmpeg obs-studio v4l2loopback-dkms lutris mpv brave-browser handbrake gnome-tweaks webcamoid openjdk-16-jre-headless spotify-client
+apt install -y neofetch steam ffmpeg obs-studio v4l2loopback-dkms lutris mpv brave-browser handbrake gnome-tweaks webcamoid openjdk-16-jre-headless spotify-client
 apt install -y --install-recommends winehq-stable
 
 
