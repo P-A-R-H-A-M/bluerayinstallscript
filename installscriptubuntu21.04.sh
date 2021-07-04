@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo su
 
 #ppa adding and installing prerequisites
 add-apt-repository ppa:appimagelauncher-team/stable -y
