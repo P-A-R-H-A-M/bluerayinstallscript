@@ -23,7 +23,7 @@ curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key 
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
 wget https://extensions.gnome.org/extension-data/emoji-selectormaestroschan.fr.v20.shell-extension.zip
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" -y
 
 #installing apps
 apt update
